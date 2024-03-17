@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <link rel="stylesheet" href="./bloglist.css" />
+  </head>
+  <body>
+  <div id="createPostModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Pen Your Post</h2>
+      <div class="form-group">
+        <label for="postTitle">Title</label>
+        <input
+          type="text"
+          id="postTitle"
+          placeholder="Enter title of your post"
+        />
+      </div>
+      <div class="form-group">
+        <label for="postContent">Contents</label>
+        <textarea
+          id="postContent"
+          placeholder="Enter the contents of your post"
+        ></textarea>
+      </div>
+      <button id="createPostButton" class="create-button">Create</button>
+    </div>
+  </div>
+  <script src="bloglist.js"></script>
+</body>
+</html>
